@@ -1,0 +1,358 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <defs>
+    <!-- Metallic Gold Gradients matching the exact logo -->
+    <linearGradient id="goldRingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DFC184" />
+      <stop offset="30%" stop-color="#C9A45C" />
+      <stop offset="55%" stop-color="#B0893E" />
+      <stop offset="80%" stop-color="#D7B673" />
+      <stop offset="100%" stop-color="#A67F35" />
+    </linearGradient>
+
+    <linearGradient id="gold3D" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9A7229" />
+      <stop offset="28%" stop-color="#E5C888" />
+      <stop offset="50%" stop-color="#C69E52" />
+      <stop offset="75%" stop-color="#F0D79E" />
+      <stop offset="100%" stop-color="#87601E" />
+    </linearGradient>
+
+    <linearGradient id="goldPan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5C887" />
+      <stop offset="45%" stop-color="#BD9548" />
+      <stop offset="100%" stop-color="#704F14" />
+    </linearGradient>
+
+    <linearGradient id="swooshGold" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D6B572" />
+      <stop offset="50%" stop-color="#C29A4E" />
+      <stop offset="100%" stop-color="#916B24" />
+    </linearGradient>
+
+    <!-- Inner circular clip path -->
+    <clipPath id="innerCircleClip">
+      <circle cx="500" cy="500" r="440" />
+    </clipPath>
+
+    <!-- Curved text path for bottom motto -->
+    <path
+      id="bottomMottoArc"
+      d="M 146,725 A 418,418 0 0,0 854,725"
+      fill="none"
+    />
+  </defs>
+
+  <!-- Outer Gold Ring -->
+  <circle cx="500" cy="500" r="494" fill="url(#goldRingGrad)" />
+  <!-- Deep Navy Outer Band -->
+  <circle cx="500" cy="500" r="481" fill="#051728" />
+  <!-- Inner Gold Ring -->
+  <circle cx="500" cy="500" r="446" fill="url(#goldRingGrad)" />
+
+  <!-- Clipped Interior: Top White & Bottom Deep Navy -->
+  <g clip-path="url(#innerCircleClip)">
+    <!-- Top Off-White Background -->
+    <rect x="50" y="50" width="900" height="632" fill="#F8F9FA" />
+    <!-- Bottom Rich Navy Background -->
+    <rect x="50" y="682" width="900" height="300" fill="#051B2E" />
+    <!-- Horizontal Gold Divider Line -->
+    <line x1="50" y1="682" x2="950" y2="682" stroke="url(#goldRingGrad)" stroke-width="5.5" />
+  </g>
+
+  <!-- ==================== TOP CREST SECTION ==================== -->
+  <!-- Shield Outline -->
+  <path
+    d="M 500,104
+       C 462,135 408,146 353,147
+       L 353,248
+       C 353,305 372,348 402,380
+       M 500,104
+       C 538,135 592,146 647,147
+       L 647,248
+       C 647,305 628,348 598,380"
+    fill="none"
+    stroke="#051B2E"
+    stroke-width="14"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Left Laurel Wreath -->
+  <g fill="#051B2E">
+    <path
+      d="M 322,456 C 235,390 218,275 288,188"
+      fill="none"
+      stroke="#051B2E"
+      stroke-width="4.5"
+      stroke-linecap="round"
+    />
+    <path d="M 305,442 C 276,445 262,432 256,418 C 275,418 292,428 305,442 Z" />
+    <path d="M 284,424 C 254,422 240,406 238,390 C 258,394 274,408 284,424 Z" />
+    <path d="M 294,426 C 304,408 318,398 334,394 C 326,410 312,420 294,426 Z" />
+
+    <path d="M 266,400 C 236,394 224,376 224,358 C 244,366 258,382 266,400 Z" />
+    <path d="M 276,402 C 288,382 302,372 320,368 C 310,386 294,396 276,402 Z" />
+
+    <path d="M 252,372 C 224,362 214,342 216,322 C 236,334 246,352 252,372 Z" />
+    <path d="M 262,374 C 276,354 290,342 308,340 C 298,358 280,368 262,374 Z" />
+
+    <path d="M 244,340 C 218,326 210,304 216,284 C 234,298 242,318 244,340 Z" />
+    <path d="M 253,342 C 268,322 284,312 302,310 C 290,328 272,338 253,342 Z" />
+
+    <path d="M 242,306 C 220,288 216,266 225,246 C 240,264 244,284 242,306 Z" />
+    <path d="M 250,308 C 268,290 284,282 302,282 C 288,298 270,306 250,308 Z" />
+
+    <path d="M 248,272 C 230,252 230,230 242,212 C 254,230 254,250 248,272 Z" />
+    <path d="M 255,274 C 274,258 290,252 308,254 C 292,268 274,274 255,274 Z" />
+
+    <path d="M 260,240 C 248,220 250,198 264,184 C 272,202 268,222 260,240 Z" />
+    <path d="M 266,242 C 286,230 302,226 318,230 C 302,242 284,244 266,242 Z" />
+
+    <path d="M 276,208 C 270,190 276,174 292,162 C 294,180 288,196 276,208 Z" />
+    <path d="M 282,212 C 300,202 314,200 328,206 C 312,216 296,216 282,212 Z" />
+    <path d="M 288,188 C 294,172 306,160 322,154 C 314,170 302,182 288,188 Z" />
+  </g>
+
+  <!-- Right Laurel Wreath (Mirrored horizontally across x=500) -->
+  <g fill="#051B2E" transform="translate(1000, 0) scale(-1, 1)">
+    <path
+      d="M 322,456 C 235,390 218,275 288,188"
+      fill="none"
+      stroke="#051B2E"
+      stroke-width="4.5"
+      stroke-linecap="round"
+    />
+    <path d="M 305,442 C 276,445 262,432 256,418 C 275,418 292,428 305,442 Z" />
+    <path d="M 284,424 C 254,422 240,406 238,390 C 258,394 274,408 284,424 Z" />
+    <path d="M 294,426 C 304,408 318,398 334,394 C 326,410 312,420 294,426 Z" />
+
+    <path d="M 266,400 C 236,394 224,376 224,358 C 244,366 258,382 266,400 Z" />
+    <path d="M 276,402 C 288,382 302,372 320,368 C 310,386 294,396 276,402 Z" />
+
+    <path d="M 252,372 C 224,362 214,342 216,322 C 236,334 246,352 252,372 Z" />
+    <path d="M 262,374 C 276,354 290,342 308,340 C 298,358 280,368 262,374 Z" />
+
+    <path d="M 244,340 C 218,326 210,304 216,284 C 234,298 242,318 244,340 Z" />
+    <path d="M 253,342 C 268,322 284,312 302,310 C 290,328 272,338 253,342 Z" />
+
+    <path d="M 242,306 C 220,288 216,266 225,246 C 240,264 244,284 242,306 Z" />
+    <path d="M 250,308 C 268,290 284,282 302,282 C 288,298 270,306 250,308 Z" />
+
+    <path d="M 248,272 C 230,252 230,230 242,212 C 254,230 254,250 248,272 Z" />
+    <path d="M 255,274 C 274,258 290,252 308,254 C 292,268 274,274 255,274 Z" />
+
+    <path d="M 260,240 C 248,220 250,198 264,184 C 272,202 268,222 260,240 Z" />
+    <path d="M 266,242 C 286,230 302,226 318,230 C 302,242 284,244 266,242 Z" />
+
+    <path d="M 276,208 C 270,190 276,174 292,162 C 294,180 288,196 276,208 Z" />
+    <path d="M 282,212 C 300,202 314,200 328,206 C 312,216 296,216 282,212 Z" />
+    <path d="M 288,188 C 294,172 306,160 322,154 C 314,170 302,182 288,188 Z" />
+  </g>
+
+  <!-- 3D Gold Scales of Justice -->
+  <g>
+    <polygon points="500,122 487,148 500,156 513,148" fill="url(#gold3D)" />
+    <rect x="491" y="156" width="18" height="105" rx="4" fill="url(#gold3D)" />
+    <circle cx="500" cy="176" r="14" fill="url(#gold3D)" stroke="#7A5618" stroke-width="2" />
+    <circle cx="500" cy="176" r="5" fill="#F6E3B4" />
+
+    <path
+      d="M 384,191 C 418,168 462,174 500,176 C 538,174 582,168 616,191
+         C 618,196 612,199 606,196 C 574,182 538,186 500,188
+         C 462,186 426,182 394,196 C 388,199 382,196 384,191 Z"
+      fill="url(#gold3D)"
+    />
+    <circle cx="388" cy="191" r="7" fill="url(#gold3D)" />
+    <circle cx="612" cy="191" r="7" fill="url(#gold3D)" />
+
+    <line x1="388" y1="196" x2="350" y2="284" stroke="#B68F40" stroke-width="3.2" stroke-dasharray="5,2" />
+    <line x1="388" y1="196" x2="426" y2="284" stroke="#B68F40" stroke-width="3.2" stroke-dasharray="5,2" />
+    <line x1="612" y1="196" x2="574" y2="284" stroke="#B68F40" stroke-width="3.2" stroke-dasharray="5,2" />
+    <line x1="612" y1="196" x2="650" y2="284" stroke="#B68F40" stroke-width="3.2" stroke-dasharray="5,2" />
+
+    <ellipse cx="388" cy="284" rx="48" ry="6" fill="#E5C887" stroke="#8A6421" stroke-width="1.5" />
+    <path d="M 340,284 C 348,312 428,312 436,284 Z" fill="url(#goldPan)" />
+
+    <ellipse cx="612" cy="284" rx="48" ry="6" fill="#E5C887" stroke="#8A6421" stroke-width="1.5" />
+    <path d="M 564,284 C 572,312 652,312 660,284 Z" fill="url(#goldPan)" />
+  </g>
+
+  <!-- Central Deep Navy Letter "A" -->
+  <g>
+    <path
+      d="M 500,208 L 418,392 L 402,392 L 402,402 L 460,402 L 460,392 L 442,392 L 462,344 L 528,344 L 548,392 L 532,392 L 532,402 L 596,402 L 596,392 L 580,392 L 500,208 Z
+         M 495,256 L 522,324 L 469,324 L 495,256 Z"
+      fill="#051B2E"
+      stroke="#F8F9FA"
+      stroke-width="6"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M 500,208 L 418,392 L 402,392 L 402,402 L 460,402 L 460,392 L 442,392 L 462,344 L 528,344 L 548,392 L 532,392 L 532,402 L 596,402 L 596,392 L 580,392 L 500,208 Z
+         M 495,256 L 522,324 L 469,324 L 495,256 Z"
+      fill="#051B2E"
+    />
+
+    <path
+      d="M 408,386 C 446,326 518,312 595,335 C 530,330 468,348 408,386 Z"
+      fill="url(#swooshGold)"
+      stroke="#F8F9FA"
+      stroke-width="4"
+    />
+    <path
+      d="M 408,386 C 446,326 518,312 595,335 C 530,330 468,348 408,386 Z"
+      fill="url(#swooshGold)"
+    />
+  </g>
+
+  <!-- Open Book Below the 'A' -->
+  <g fill="#051B2E">
+    <path d="M 342,408 C 395,396 452,404 494,436 C 448,416 392,412 332,422 Z" />
+    <path d="M 658,408 C 605,396 548,404 506,436 C 552,416 608,412 668,422 Z" />
+    <path d="M 322,428 C 384,416 446,422 495,444 C 444,430 382,428 314,440 Z" />
+    <path d="M 678,428 C 616,416 554,422 505,444 C 556,430 618,428 686,440 Z" />
+    <path d="M 308,448 C 375,436 442,438 497,454 L 503,454 C 558,438 625,436 692,448 L 686,460 C 622,450 558,448 500,462 C 442,448 378,450 314,460 Z" />
+  </g>
+
+  <!-- ==================== MIDDLE TYPOGRAPHY SECTION ==================== -->
+  <line x1="310" y1="504" x2="392" y2="504" stroke="#B68F40" stroke-width="2.5" />
+  <text
+    x="500"
+    y="513"
+    text-anchor="middle"
+    fill="#B0883B"
+    font-family="'Cormorant Garamond', 'Playfair Display', Georgia, serif"
+    font-size="31"
+    font-weight="700"
+    letter-spacing="12"
+  >ONLINE</text>
+  <line x1="608" y1="504" x2="690" y2="504" stroke="#B68F40" stroke-width="2.5" />
+
+  <text
+    x="500"
+    y="592"
+    text-anchor="middle"
+    fill="#051B2E"
+    font-family="'Cormorant Garamond', 'Playfair Display', 'Times New Roman', serif"
+    font-size="94"
+    font-weight="700"
+    letter-spacing="3"
+  >LEGAL AEGIS</text>
+
+  <text
+    x="500"
+    y="638"
+    text-anchor="middle"
+    fill="#051B2E"
+    font-family="'Cormorant Garamond', 'Playfair Display', Georgia, serif"
+    font-size="35"
+    font-weight="700"
+    letter-spacing="6.5"
+  >CONSULTANCY AND ACADEMY</text>
+
+  <g stroke="#C5A059" fill="#C5A059">
+    <polygon points="220,660 456,657 456,662" stroke="none" />
+    <polygon points="780,660 544,657 544,662" stroke="none" />
+    <path d="M 500,649 L 510,660 L 500,671 L 490,660 Z" stroke="none" />
+    <path
+      d="M 486,660 C 478,650 464,652 464,660 C 464,667 476,668 482,662
+         M 514,660 C 522,650 536,652 536,660 C 536,667 524,668 518,662"
+      fill="none"
+      stroke="#C5A059"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+  </g>
+
+  <!-- ==================== BOTTOM NAVY SERVICES & MOTTO ==================== -->
+  <line x1="286" y1="718" x2="286" y2="796" stroke="#C5A059" stroke-width="1.5" opacity="0.8" />
+  <line x1="424" y1="718" x2="424" y2="796" stroke="#C5A059" stroke-width="1.5" opacity="0.8" />
+  <line x1="576" y1="718" x2="576" y2="796" stroke="#C5A059" stroke-width="1.5" opacity="0.8" />
+  <line x1="714" y1="718" x2="714" y2="796" stroke="#C5A059" stroke-width="1.5" opacity="0.8" />
+
+  <!-- 1. LEGAL CONSULTANCY -->
+  <g transform="translate(212, 730)">
+    <circle cx="0" cy="0" r="29" fill="none" stroke="#C5A059" stroke-width="2.5" />
+    <line x1="0" y1="-16" x2="0" y2="14" stroke="#FFFFFF" stroke-width="2.2" />
+    <line x1="-10" y1="14" x2="10" y2="14" stroke="#FFFFFF" stroke-width="2.5" />
+    <line x1="-14" y1="-10" x2="14" y2="-10" stroke="#FFFFFF" stroke-width="2" />
+    <polygon points="-14,-10 -19,2 -9,2" fill="none" stroke="#FFFFFF" stroke-width="1.5" />
+    <polygon points="14,-10 9,2 19,2" fill="none" stroke="#FFFFFF" stroke-width="1.5" />
+    <text x="0" y="47" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15.5" font-weight="600" letter-spacing="0.6">LEGAL</text>
+    <text x="0" y="64" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15.5" font-weight="600" letter-spacing="0.6">CONSULTANCY</text>
+  </g>
+
+  <!-- 2. CONTRACT DRAFTING -->
+  <g transform="translate(355, 730)">
+    <circle cx="0" cy="0" r="29" fill="none" stroke="#C5A059" stroke-width="2.5" />
+    <rect x="-12" y="-14" width="20" height="26" rx="2" fill="none" stroke="#C5A059" stroke-width="2" />
+    <line x1="-8" y1="-7" x2="3" y2="-7" stroke="#C5A059" stroke-width="1.8" />
+    <line x1="-8" y1="-1" x2="3" y2="-1" stroke="#C5A059" stroke-width="1.8" />
+    <line x1="-8" y1="5" x2="0" y2="5" stroke="#C5A059" stroke-width="1.8" />
+    <path d="M 3,6 L 14,-5 L 18,-1 L 7,10 L 2,11 Z" fill="#FFFFFF" />
+    <text x="0" y="47" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15.5" font-weight="600" letter-spacing="0.6">CONTRACT</text>
+    <text x="0" y="64" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15.5" font-weight="600" letter-spacing="0.6">DRAFTING</text>
+  </g>
+
+  <!-- 3. PROPERTY & LAND MATTERS -->
+  <g transform="translate(500, 730)">
+    <circle cx="0" cy="0" r="29" fill="none" stroke="#C5A059" stroke-width="2.5" />
+    <polygon points="0,-16 -17,-2 -12,-2 -12,13 12,13 12,-2 17,-2" fill="#FFFFFF" />
+    <rect x="-4" y="3" width="8" height="10" fill="#051B2E" />
+    <text x="0" y="47" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15.5" font-weight="600" letter-spacing="0.6">PROPERTY &amp;</text>
+    <text x="0" y="64" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15.5" font-weight="600" letter-spacing="0.6">LAND MATTERS</text>
+  </g>
+
+  <!-- 4. FAMILY & MARRIAGE LAW -->
+  <g transform="translate(645, 730)">
+    <circle cx="0" cy="0" r="29" fill="none" stroke="#C5A059" stroke-width="2.5" />
+    <circle cx="0" cy="-8" r="4.5" fill="#FFFFFF" />
+    <path d="M -8,11 C -8,3 8,3 8,11 Z" fill="#FFFFFF" />
+    <circle cx="-11" cy="-5" r="3.8" fill="#FFFFFF" />
+    <path d="M -17,11 C -17,4 -5,4 -5,11 Z" fill="#FFFFFF" />
+    <circle cx="11" cy="-5" r="3.8" fill="#FFFFFF" />
+    <path d="M 5,11 C 5,4 17,4 17,11 Z" fill="#FFFFFF" />
+    <text x="0" y="47" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15.5" font-weight="600" letter-spacing="0.6">FAMILY &amp;</text>
+    <text x="0" y="64" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15.5" font-weight="600" letter-spacing="0.6">MARRIAGE LAW</text>
+  </g>
+
+  <!-- 5. ONLINE LAW COACHING -->
+  <g transform="translate(788, 730)">
+    <circle cx="0" cy="0" r="29" fill="none" stroke="#C5A059" stroke-width="2.5" />
+    <polygon points="0,-13 -18,-4 0,5 18,-4" fill="#FFFFFF" />
+    <path d="M -10,2 L -10,10 C -10,14 10,14 10,10 L 10,2 L 0,7 Z" fill="#FFFFFF" />
+    <line x1="15" y1="-3" x2="15" y2="9" stroke="#FFFFFF" stroke-width="2" />
+    <text x="0" y="47" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15.5" font-weight="600" letter-spacing="0.6">ONLINE LAW</text>
+    <text x="0" y="64" text-anchor="middle" fill="#FFFFFF" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15.5" font-weight="600" letter-spacing="0.6">COACHING</text>
+  </g>
+
+  <!-- Classical Gold Fluted Pillar & Flanking Lines -->
+  <g transform="translate(500, 845)">
+    <polygon points="-168,-5 -38,-7 -38,-3" fill="#C5A059" />
+    <polygon points="168,-5 38,-7 38,-3" fill="#C5A059" />
+    <rect x="-24" y="-22" width="48" height="4" rx="2" fill="#C5A059" />
+    <circle cx="-18" cy="-11" r="7" fill="none" stroke="#C5A059" stroke-width="3" />
+    <circle cx="-18" cy="-11" r="2" fill="#C5A059" />
+    <circle cx="18" cy="-11" r="7" fill="none" stroke="#C5A059" stroke-width="3" />
+    <circle cx="18" cy="-11" r="2" fill="#C5A059" />
+    <line x1="-11" y1="-15" x2="11" y2="-15" stroke="#C5A059" stroke-width="3" />
+    <rect x="-13" y="-4" width="3.2" height="28" rx="1.5" fill="#C5A059" />
+    <rect x="-7" y="-4" width="3.2" height="36" rx="1.5" fill="#C5A059" />
+    <rect x="-1.6" y="-4" width="3.2" height="44" rx="1.5" fill="#C5A059" />
+    <rect x="3.8" y="-4" width="3.2" height="36" rx="1.5" fill="#C5A059" />
+    <rect x="9.8" y="-4" width="3.2" height="28" rx="1.5" fill="#C5A059" />
+  </g>
+
+  <!-- Curved Motto Along Bottom Edge -->
+  <text
+    fill="#FFFFFF"
+    font-family="'Plus Jakarta Sans', Arial, sans-serif"
+    font-size="20"
+    font-weight="500"
+    letter-spacing="2.2"
+  >
+    <textPath href="#bottomMottoArc" startOffset="50%" text-anchor="middle">
+      <tspan fill="#C5A059" font-size="24">✦ </tspan>EXPERT GUIDANCE. RELIABLE SOLUTIONS. JUSTICE ASSURED.<tspan fill="#C5A059" font-size="24"> ✦</tspan>
+    </textPath>
+  </text>
+</svg>
